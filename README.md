@@ -13,7 +13,7 @@ As Concourse [documentation](http://concourse.ci/implementing-resources.html#res
 Always emits an empty version.
 
 ### `in`: Output metadata to files
-Outputs `$BUILD_ID`, `$BUILD_NAME`, `$BUILD_JOB_NAME`, `$BUILD_PIPELINE_NAME`, `$BUILD_TEAM_NAME` and `$ATC_EXTERNAL_URL` to files `build_id`, `build_name`, `build_job_name`, `build_pipeline_name`, `build_team_name` and `atc_external_url` respectively.
+Outputs `$BUILD_ID`, `$BUILD_NAME`, `$BUILD_JOB_NAME`, `$BUILD_PIPELINE_NAME`, `$BUILD_TEAM_NAME`,  `$BUILD_TRIGGERED_BY` and `$ATC_EXTERNAL_URL` to files `build_id`, `build_name`, `build_job_name`, `build_pipeline_name`, `build_team_name` and `atc_external_url` respectively.
 
 ### `out`: Not used
 
